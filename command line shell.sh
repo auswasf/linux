@@ -17,3 +17,7 @@ scp "command line shell.sh" root@SERVER_IP:/root/
 cp /media/aus/MyUSB/install_odoo.sh /home/aus/
 chmod +x ~/install_odoo.sh
 ./install_odoo.sh
+
+
+apt update
+apt install postgresql -y
