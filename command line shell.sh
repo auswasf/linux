@@ -21,3 +21,12 @@ chmod +x ~/install_odoo.sh
 
 apt update
 apt install postgresql -y
+
+
+
+
+systemctl start postgresql
+systemctl status postgresql
+
+
+
