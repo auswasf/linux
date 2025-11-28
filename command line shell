@@ -1,3 +1,11 @@
 # to switch root user
 su -
-  
+
+
+sed -i '/^#\?PermitRootLogin /c\PermitRootLogin yes'  /etc/ssh/sshd_config
+
+sed -i '/^#\?PasswordAuthentication /c\PasswordAuthentication yes'  /etc/ssh/sshd_config
+
+systemctl restart ssh
+
+cp /usr/share/openssh/sshd_config /etc/ssh/sshd_config
