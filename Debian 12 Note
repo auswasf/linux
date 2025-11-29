@@ -1,0 +1,11 @@
+
+
+
+#اضف هذه السطور للاشارة الى مستودعات ديبيان على النت
+deb http://deb.debian.org/debian bookworm main contrib non-free
+deb http://deb.debian.org/debian-security bookworm-security main contrib non-free
+deb http://deb.debian.org/debian bookworm-updates main contrib non-free
+#علق السطر الاسفل لانه يشير الى cd
+# deb cdrom:[Debian GNU/Linux 12.12.0 _Bookworm_ - Official amd64 DVD Binary-1]/ bookworm main
+
+
