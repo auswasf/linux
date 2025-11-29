@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # to switch root user
 su -
 
